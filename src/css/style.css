@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth; }
+
+h1 {
+  color: white; }
+
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+/** Carousel Section*/
+#showcase .carousel-item {
+  height: 450px; }
+
+#showcase .carousel-img-1 {
+  background: url(../img/image1.jpeg);
+  background-size: cover; }
+
+#showcase .carousel-img-2 {
+  background: url(../img/image2.jpeg);
+  background-size: cover; }
+
+#showcase .carousel-img-3 {
+  background: url(../img/image3.jpeg);
+  background-size: cover; }
+
+#showcase h2 {
+  color: white; }
+
+/** Home Icon section*/
+#homeicon .fa {
+  font-size: 50px; }
+
+#homeicon h3 {
+  margin: 10px 0 10px 0; }
+
+#homeicon p {
+  margin-bottom: 0; }
+
+/** Get started section*/
+#getstarted, #home-video {
+  position: relative;
+  background: url("../img/bg1.jpeg");
+  min-height: 250px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #getstarted .dark-overlay, #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #getstarted h2, #home-video h2 {
+    color: white; }
+
+/* Home video section*/
+#home-video {
+  background: url("../img/people.jpeg"); }
+  #home-video .fa {
+    color: red;
+    font-size: 50px; }
+
+/** Photo Gallery Section*/
+#photo-gallery img {
+  min-height: 200px; }
+
+/** Copy right section*/
+#copyright {
+  background: #000; }
+
+/** About page header*/
+#page-header {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+/** About info section*/
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+/** About icon boxes section*/
+#icon-boxes .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+/* Testimonial Section*/
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000; }
+
+/** Service page header page header*/
+#services-page-header {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+/** blog page header */
+#blog-header {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+/** Contact Us page header*/
+#contactUs {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed; }
+
+/** Navbar Media query*/
+@media (max-width: 991px) {
+  .nav-item {
+    padding-left: 0em !important; } }
+
+/*Carousel Mediaquery*/
+@media (max-width: 479px) {
+  .carousel-inner h2 {
+    font-size: 2rem;
+    padding-bottom: 10px; }
+  #getstarted, #home-video {
+    min-height: 400px !important; }
+  #page-header {
+    min-height: 250px !important; } }
+
+/** Get started section media query*/
+@media (max-width: 767px) {
+  #getstarted, #home-video {
+    min-height: 300px; } }
